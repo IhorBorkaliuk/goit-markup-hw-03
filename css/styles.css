@@ -1,0 +1,230 @@
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-text-color: #2196f3;
+  --just-white-color: #ffffff;
+  --address-link-color: rgba(255, 255, 255, 0.6);
+  --bg-color: #2f303a;
+  --bg-color-team: #f5f4fa;
+  --order-button-color: #188ce8;
+  --bg-color-button: #f5f4fa;
+}
+
+body {
+  font-family: 'Roboto', 'Open Sans', 'Lato', 'Slabo', sans-serif;
+  color: var(--primary-text-color);
+}
+
+/* Первая страница */
+
+.list {
+  list-style-type: none;
+}
+
+.logo-link:focus {
+  color: var(--accent-text-color);
+}
+
+.logo-link {
+  font-family: 'Raleway', 'Oswald', 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
+  text-decoration: none;
+}
+
+.no-underline {
+  text-decoration: none;
+}
+
+.link-nav:hover,
+.link-nav:focus {
+  color: var(--accent-text-color);
+}
+.link-nav,
+.link-nav {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.17;
+  color: var(--title-text-color);
+  text-decoration: none;
+  letter-spacing: 0.02em;
+}
+
+.link-nav.current {
+  color: var(--accent-text-color);
+}
+
+.link-contact:hover,
+.link-contact:focus {
+  color: var(--accent-text-color);
+}
+
+.link-contact {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  color: var(--primary-text-color);
+  text-decoration: none;
+  letter-spacing: 0.02em;
+}
+
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.list-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--title-text-color);
+}
+
+.text {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
+}
+
+.title-names {
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19px;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+
+.text-description {
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+
+.address-text {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71px;
+  letter-spacing: 0.03em;
+  color: var(--just-white-color);
+}
+.address-link:hover {
+  color: var(--just-white-color);
+}
+.address-link {
+  text-decoration: none;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--address-link-color);
+}
+
+.accent,
+.accent-white:focus {
+  color: var(--accent-text-color);
+}
+
+.accent-white {
+  color: var(--just-white-color);
+}
+
+footer {
+  background-color: var(--bg-color);
+}
+
+.background-about {
+  background-color: var(--bg-color);
+}
+
+/* Вторая страница */
+
+.titles-port {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--title-text-color);
+}
+
+.description-port {
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+}
+
+.button-list {
+  background-color: var(--bg-color-button);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.button-list:hover {
+  color: var(--just-white-color);
+  background-color: var(--accent-text-color);
+}
+
+.button-order:hover {
+  color: var(--just-white-color);
+  background-color: var(--order-button-color);
+}
+
+.button-order {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--just-white-color);
+  background-color: var(--accent-text-color);
+  margin: 0 auto;
+  display: block;
+}
+
+.team {
+  background-color: var(--bg-color-team);
+}
+
+.buttonall {
+  color: var(--just-white-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  background-color: #2196f3;
+}
+
+.buttonall:hover {
+  color: var(--just-white-color);
+}
