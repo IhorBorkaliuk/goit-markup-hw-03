@@ -17,7 +17,7 @@ body {
 
 .list {
   list-style-type: none;
-  padding-left: 0px;
+  padding: 0px;
 }
 
 /* Первая страница */
@@ -29,6 +29,10 @@ body {
   padding-right: 15px;
   width: 1230px;
   /* background-color: red; */
+}
+
+section {
+  padding-bottom: 94px;
 }
 
 .main-nav {
@@ -130,6 +134,8 @@ body {
 
 .main-box {
   display: flex;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 .main-box .item-text:last-child {
@@ -156,6 +162,8 @@ body {
 }
 
 .title {
+  margin-top: 0px;
+  margin-bottom: 0px;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -178,6 +186,20 @@ body {
   line-height: 1.9;
   letter-spacing: 0.03em;
   text-align: center;
+}
+
+.images-list {
+  display: flex;
+  margin: 0px;
+}
+
+.image {
+  margin-top: 50px;
+  margin-right: 30px;
+}
+
+.images-list .image:last-child {
+  margin-right: 0px;
 }
 
 .logo-link:focus {
@@ -239,6 +261,7 @@ footer {
 
 .background-about {
   background-color: var(--bg-color);
+  margin-bottom: 94px;
 }
 
 /* Вторая страница */
@@ -282,23 +305,39 @@ button {
 }
 
 .button-order {
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+  padding: 10px 32px;
+  border-radius: 4px;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
-  display: flex;
-  align-items: center;
-  text-align: center;
   letter-spacing: 0.06em;
   color: var(--just-white-color);
   background-color: var(--accent-text-color);
-  margin: 0 auto;
-  display: block;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
+
 .team {
+  padding-top: 94px;
   background-color: var(--bg-color-team);
 }
 
+.team-list {
+  display: flex;
+  margin: 0px;
+}
+
+.team-item {
+  margin-top: 50px;
+  margin-right: 30px;
+}
+
+.team-item:last-child {
+  margin-right: 0px;
+}
 .buttonall {
   color: var(--just-white-color);
   font-weight: 500;
