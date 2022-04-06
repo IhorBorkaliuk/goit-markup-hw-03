@@ -12,7 +12,7 @@
 
 header {
   background-color: var(--just-white-color);
-  margin-bottom: 1px;
+  border: 1px solid #ECECEC;
 }
 
 body {
@@ -280,7 +280,39 @@ footer {
 
 /* Вторая страница */
 
+.buttons {
+  display: flex;
+  padding-top: 94px;
+  justify-content: center;
+  margin: 0px;
+}
+
+.button-item {
+  margin-right: 8px;
+}
+
+.button-item:last-child {
+  margin-right: 0px;
+}
+
+
+.portfolio {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0px;
+}
+
+.portfolio-items {
+  margin-right: 30px;
+}
+
+.portfolio-items:nth-child(3n){
+  margin-right: 0px;
+}
+
 .titles-port {
+  margin-top: 20px;
+  margin-bottom: 0px;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -289,10 +321,16 @@ footer {
 }
 
 .description-port {
+  margin-top: 4px;
+  margin-bottom: 0px;
   font-size: 16px;
   line-height: 1.9;
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
+}
+
+.images-port {
+  margin-top: 50px;
 }
 
 button {
