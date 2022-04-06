@@ -128,7 +128,9 @@ section {
 }
 
 .hero-title {
-  margin: 0px;
+  width: 696px;
+  margin-left: auto;
+  margin-right: auto;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -266,14 +268,8 @@ footer {
 }
 
 .background-about {
-  margin-left: auto;
-  margin-right: auto;
   padding-top: 200px;
-  padding-bottom: 210px;
-  padding-left: 452px;
-  padding-right: 452px;
-  width: 1600px;
-  height: 600px;
+  padding-bottom: 200px;
   background-color: var(--bg-color);
   margin-bottom: 94px;
 }
@@ -357,10 +353,10 @@ button {
 }
 
 .button-order {
-  margin-top: 30px;
-  margin-right: auto;
   margin-left: auto;
-  display: block;
+  margin-right: auto;
+  margin-top: 30px;
+  display: flex;
   padding: 10px 32px;
   border-radius: 4px;
   font-weight: 700;
