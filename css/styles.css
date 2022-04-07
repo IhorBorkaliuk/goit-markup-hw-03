@@ -37,6 +37,11 @@ body {
 
 section {
   padding-bottom: 94px;
+  padding-top: 94px;
+}
+
+.section-fix {
+  padding-bottom: 0px;
 }
 
 .main-nav {
@@ -73,6 +78,7 @@ section {
 
 }
 
+.logo-link-top:hover,
 .logo-link-top:focus {
   color: var(--accent-text-color);
 }
@@ -209,6 +215,8 @@ section {
   margin-right: 0px;
 }
 
+
+.logo-link:hover,
 .logo-link:focus {
   color: var(--accent-text-color);
 }
@@ -270,14 +278,12 @@ footer {
   padding-top: 200px;
   padding-bottom: 200px;
   background-color: var(--bg-color);
-  margin-bottom: 94px;
 }
 
 /* Вторая страница */
 
 .buttons {
   display: flex;
-  padding-top: 94px;
   justify-content: center;
   margin: 0px;
 }
@@ -298,7 +304,9 @@ footer {
 }
 
 .portfolio-items {
+  margin-top: 50px;
   margin-right: 30px;
+  border: 1px solid #EEEEEE;
 }
 
 .portfolio-items:nth-child(3n){
@@ -306,6 +314,7 @@ footer {
 }
 
 .titles-port {
+  margin-left: 24px;
   margin-top: 20px;
   margin-bottom: 0px;
   font-weight: 700;
@@ -316,6 +325,7 @@ footer {
 }
 
 .description-port {
+  margin-left: 24px;
   margin-top: 4px;
   margin-bottom: 0px;
   font-size: 16px;
@@ -325,7 +335,7 @@ footer {
 }
 
 .images-port {
-  margin-top: 50px;
+  /* margin-top: 50px; */
 }
 
 button {
@@ -369,7 +379,6 @@ button {
 
 
 .team {
-  padding-top: 94px;
   background-color: var(--bg-color-team);
 }
 
