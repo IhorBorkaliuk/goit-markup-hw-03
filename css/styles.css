@@ -20,6 +20,9 @@ body {
   color: var(--primary-text-color);
 }
 
+img {
+  display: block;
+}
 .list {
   list-style-type: none;
   margin: 0px;
@@ -68,8 +71,8 @@ section {
   padding-bottom: 32px;
 }
 
-.header-box .item-contact:first-child {
-  margin-left: 331px;
+.item-contact {
+  margin-left: auto;
 }
 .header-box .item-contact + .item-contact {
   margin-left: 50px;
@@ -109,7 +112,7 @@ section {
 .link-nav:focus {
   color: var(--accent-text-color);
 }
-.link-nav,
+
 .link-nav {
   font-weight: 500;
   font-size: 14px;
